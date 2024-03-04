@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 1. Feladat - title */
+
+
+
+
+a { 
+    color: #9c3;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #769e26; 
+}
+
+a .card-title {
+    color: #666; /* Szürke (#666666) alapértelmezett állapotban */
+}
+
+a .card-title:hover {
+    color: darkgreen; /* Sötétzöld, amikor az egér fölé viszik */
+}
+
+
+/* 1. Feladat iMsc */
+
+
+
+/* Címsorok */
+h1, h2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 { 
+    font-size: 18px;
+}
+
+/* 2. feladat: Kártya lábléc formázása */
+.card-footer{
+    border-top-style: dashed; /* Szaggatott vonal */
+    font-size: 0.75rem; /* Betűméret: 0.75 rem */
+    background-color: transparent; /* Háttérszín: átlátszó */
+    display: flex; /* Flexbox elrendezés beállítása */
+    justify-content: space-between; /* Elemek közötti távolság növelése */
+}
+
+.card-footer a {
+    color: #666; /* Szürke (#666666) alapértelmezetten */
+}
+
+.card-footer a:hover,
+.card-footer a i {
+    color: darkgreen; /* Zöld, amikor az egér fölé viszik */
+}
+
+
+
+/* 4. feladat - Footer egyedi CSS */
+footer { 
+    position: fixed;
+}
+
+/* 5. feladat iMSc regisztráció középre igazítás */
